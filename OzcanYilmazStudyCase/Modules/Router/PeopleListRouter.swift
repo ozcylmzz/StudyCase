@@ -11,14 +11,16 @@ class PeopleListRouter {
     weak var viewController: UIViewController?
     
     static func createModule() -> UIViewController {
-        let viewController = PeopleListViewController()
+        let view = PeopleListViewController()
+        let interactor = PeopleListInteractor(dataSource: DataSource())
         let router = PeopleListRouter()
+        let presenter = PeopleListPresenter(interactor: interactor)
         
-        router.viewController = viewController
+        view.presenter = presenter
+        presenter.view = view
+        router.viewController = view
+        interactor.delegate = presenter
         
-        let navigationController = UINavigationController(rootViewController: viewController)
-        navigationController.navigationBar.prefersLargeTitles = true
-        
-        return navigationController
+        return view
     }
 }

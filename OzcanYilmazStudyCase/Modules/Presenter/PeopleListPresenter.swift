@@ -24,7 +24,7 @@ protocol PeopleListViewProtocol: AnyObject {
 
 class PeopleListPresenter: PeopleListPresenterProtocol, PeopleListInteractorDelegate {
     private var interactor: PeopleListInteractorProtocol
-    private weak var view: PeopleListViewProtocol?
+    weak var view: PeopleListViewProtocol?
     private var people: [Person] = []
     
     init(interactor: PeopleListInteractorProtocol) {
@@ -55,7 +55,7 @@ class PeopleListPresenter: PeopleListPresenterProtocol, PeopleListInteractorDele
         
         if people.isEmpty {
             view?.showEmptyListMessage()
-        } else {
+        } else if hasNextPage {
             view?.showPeople(people)
         }
     }

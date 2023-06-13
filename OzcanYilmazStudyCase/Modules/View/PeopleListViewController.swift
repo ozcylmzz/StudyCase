@@ -12,7 +12,7 @@ class PeopleListViewController: UIViewController {
     private let refreshControl = UIRefreshControl()
     private let loadingIndicator = UIActivityIndicatorView(style: .medium)
     
-    private var presenter: PeopleListPresenterProtocol?
+    var presenter: PeopleListPresenterProtocol?
     private var people: [Person] = []
     
     override func viewDidLoad() {
@@ -70,8 +70,10 @@ extension PeopleListViewController: PeopleListViewProtocol {
     }
     
     func showPeople(_ people: [Person]) {
-        self.people = people
-        tableView.reloadData()
+        DispatchQueue.main.async {
+            self.people = people
+            self.tableView.reloadData()
+        }
     }
     
     func showError(_ error: String) {
@@ -95,7 +97,7 @@ extension PeopleListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let person = people[indexPath.row]
-        cell.textLabel?.text = person.fullName
+        cell.textLabel?.text = person.fullName + person.id.description
         return cell
     }
 }
