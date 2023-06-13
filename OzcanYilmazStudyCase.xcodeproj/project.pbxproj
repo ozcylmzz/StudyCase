@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		F70B297B2A38CEDB0099B0C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B297A2A38CEDB0099B0C1 /* AppDelegate.swift */; };
 		F70B297D2A38CEDB0099B0C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B297C2A38CEDB0099B0C1 /* SceneDelegate.swift */; };
-		F70B297F2A38CEDB0099B0C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B297E2A38CEDB0099B0C1 /* ViewController.swift */; };
-		F70B29822A38CEDB0099B0C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70B29802A38CEDB0099B0C1 /* Main.storyboard */; };
 		F70B29842A38CEDC0099B0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70B29832A38CEDC0099B0C1 /* Assets.xcassets */; };
 		F70B29872A38CEDC0099B0C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70B29852A38CEDC0099B0C1 /* LaunchScreen.storyboard */; };
+		F70B29A12A38CFF30099B0C1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B29912A38CFF30099B0C1 /* Person.swift */; };
+		F70B29A22A38CFF30099B0C1 /* FetchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B29922A38CFF30099B0C1 /* FetchResponse.swift */; };
+		F70B29A32A38CFF30099B0C1 /* FetchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B29932A38CFF30099B0C1 /* FetchError.swift */; };
+		F70B29A42A38CFF30099B0C1 /* PeopleListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B29952A38CFF30099B0C1 /* PeopleListPresenter.swift */; };
+		F70B29A52A38CFF30099B0C1 /* RandomUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B29972A38CFF30099B0C1 /* RandomUtils.swift */; };
+		F70B29A62A38CFF30099B0C1 /* PeopleGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B29982A38CFF30099B0C1 /* PeopleGen.swift */; };
+		F70B29A72A38CFF30099B0C1 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B299A2A38CFF30099B0C1 /* PeopleListViewController.swift */; };
+		F70B29A82A38CFF30099B0C1 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B299D2A38CFF30099B0C1 /* DataSource.swift */; };
+		F70B29A92A38CFF30099B0C1 /* PeopleListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B299E2A38CFF30099B0C1 /* PeopleListInteractor.swift */; };
+		F70B29AA2A38CFF30099B0C1 /* PeopleListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B29A02A38CFF30099B0C1 /* PeopleListRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F70B29772A38CEDB0099B0C1 /* OzcanYilmazStudyCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OzcanYilmazStudyCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70B297A2A38CEDB0099B0C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F70B297C2A38CEDB0099B0C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F70B297E2A38CEDB0099B0C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F70B29812A38CEDB0099B0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F70B29832A38CEDC0099B0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F70B29862A38CEDC0099B0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F70B29882A38CEDC0099B0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70B29912A38CFF30099B0C1 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F70B29922A38CFF30099B0C1 /* FetchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchResponse.swift; sourceTree = "<group>"; };
+		F70B29932A38CFF30099B0C1 /* FetchError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchError.swift; sourceTree = "<group>"; };
+		F70B29952A38CFF30099B0C1 /* PeopleListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListPresenter.swift; sourceTree = "<group>"; };
+		F70B29972A38CFF30099B0C1 /* RandomUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUtils.swift; sourceTree = "<group>"; };
+		F70B29982A38CFF30099B0C1 /* PeopleGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleGen.swift; sourceTree = "<group>"; };
+		F70B299A2A38CFF30099B0C1 /* PeopleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
+		F70B299D2A38CFF30099B0C1 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		F70B299E2A38CFF30099B0C1 /* PeopleListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListInteractor.swift; sourceTree = "<group>"; };
+		F70B29A02A38CFF30099B0C1 /* PeopleListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,95 @@
 		F70B29792A38CEDB0099B0C1 /* OzcanYilmazStudyCase */ = {
 			isa = PBXGroup;
 			children = (
-				F70B297A2A38CEDB0099B0C1 /* AppDelegate.swift */,
-				F70B297C2A38CEDB0099B0C1 /* SceneDelegate.swift */,
-				F70B297E2A38CEDB0099B0C1 /* ViewController.swift */,
-				F70B29802A38CEDB0099B0C1 /* Main.storyboard */,
-				F70B29832A38CEDC0099B0C1 /* Assets.xcassets */,
-				F70B29852A38CEDC0099B0C1 /* LaunchScreen.storyboard */,
+				F70B298F2A38CFF30099B0C1 /* Modules */,
+				F70B298E2A38CEEC0099B0C1 /* Core */,
 				F70B29882A38CEDC0099B0C1 /* Info.plist */,
 			);
 			path = OzcanYilmazStudyCase;
+			sourceTree = "<group>";
+		};
+		F70B298E2A38CEEC0099B0C1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F70B297A2A38CEDB0099B0C1 /* AppDelegate.swift */,
+				F70B297C2A38CEDB0099B0C1 /* SceneDelegate.swift */,
+				F70B29832A38CEDC0099B0C1 /* Assets.xcassets */,
+				F70B29852A38CEDC0099B0C1 /* LaunchScreen.storyboard */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F70B298F2A38CFF30099B0C1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29902A38CFF30099B0C1 /* Entity */,
+				F70B29942A38CFF30099B0C1 /* Presenter */,
+				F70B29962A38CFF30099B0C1 /* Utils */,
+				F70B29992A38CFF30099B0C1 /* View */,
+				F70B299B2A38CFF30099B0C1 /* Interactor */,
+				F70B299F2A38CFF30099B0C1 /* Router */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F70B29902A38CFF30099B0C1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29912A38CFF30099B0C1 /* Person.swift */,
+				F70B29922A38CFF30099B0C1 /* FetchResponse.swift */,
+				F70B29932A38CFF30099B0C1 /* FetchError.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F70B29942A38CFF30099B0C1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29952A38CFF30099B0C1 /* PeopleListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F70B29962A38CFF30099B0C1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29972A38CFF30099B0C1 /* RandomUtils.swift */,
+				F70B29982A38CFF30099B0C1 /* PeopleGen.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F70B29992A38CFF30099B0C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F70B299A2A38CFF30099B0C1 /* PeopleListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F70B299B2A38CFF30099B0C1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F70B299C2A38CFF30099B0C1 /* DataManager */,
+				F70B299E2A38CFF30099B0C1 /* PeopleListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F70B299C2A38CFF30099B0C1 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				F70B299D2A38CFF30099B0C1 /* DataSource.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		F70B299F2A38CFF30099B0C1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29A02A38CFF30099B0C1 /* PeopleListRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +223,6 @@
 			files = (
 				F70B29872A38CEDC0099B0C1 /* LaunchScreen.storyboard in Resources */,
 				F70B29842A38CEDC0099B0C1 /* Assets.xcassets in Resources */,
-				F70B29822A38CEDB0099B0C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +233,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F70B297F2A38CEDB0099B0C1 /* ViewController.swift in Sources */,
+				F70B29A12A38CFF30099B0C1 /* Person.swift in Sources */,
+				F70B29A72A38CFF30099B0C1 /* PeopleListViewController.swift in Sources */,
+				F70B29A62A38CFF30099B0C1 /* PeopleGen.swift in Sources */,
+				F70B29AA2A38CFF30099B0C1 /* PeopleListRouter.swift in Sources */,
 				F70B297B2A38CEDB0099B0C1 /* AppDelegate.swift in Sources */,
+				F70B29A32A38CFF30099B0C1 /* FetchError.swift in Sources */,
+				F70B29A92A38CFF30099B0C1 /* PeopleListInteractor.swift in Sources */,
+				F70B29A42A38CFF30099B0C1 /* PeopleListPresenter.swift in Sources */,
+				F70B29A52A38CFF30099B0C1 /* RandomUtils.swift in Sources */,
 				F70B297D2A38CEDB0099B0C1 /* SceneDelegate.swift in Sources */,
+				F70B29A82A38CFF30099B0C1 /* DataSource.swift in Sources */,
+				F70B29A22A38CFF30099B0C1 /* FetchResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F70B29802A38CEDB0099B0C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F70B29812A38CEDB0099B0C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F70B29852A38CEDC0099B0C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +388,6 @@
 				INFOPLIST_FILE = OzcanYilmazStudyCase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +415,6 @@
 				INFOPLIST_FILE = OzcanYilmazStudyCase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
