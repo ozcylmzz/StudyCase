@@ -3,4 +3,54 @@
    uuid = "D2D6F3DF-987A-4FC7-91E7-2E7A628D7293"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9293C1A9-6B5C-406E-A5EF-E237E52AF4CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OzcanYilmazStudyCase/Modules/View/PeopleListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "showPeople(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9293C1A9-6B5C-406E-A5EF-E237E52AF4CF - 1cc3b775a558c240"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OzcanYilmazStudyCase.PeopleListViewController.showPeople(Swift.Array&lt;OzcanYilmazStudyCase.Person&gt;) -&gt; ()"
+                  moduleName = "OzcanYilmazStudyCase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ozcanyilmaz/Desktop/OzcnYlmz/ozcnylmz/OzcanYilmazStudyCase/OzcanYilmazStudyCase/Modules/View/PeopleListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "9293C1A9-6B5C-406E-A5EF-E237E52AF4CF - c6fc97389d252060"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in OzcanYilmazStudyCase.PeopleListViewController.showPeople(Swift.Array&lt;OzcanYilmazStudyCase.Person&gt;) -&gt; ()"
+                  moduleName = "OzcanYilmazStudyCase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ozcanyilmaz/Desktop/OzcnYlmz/ozcnylmz/OzcanYilmazStudyCase/OzcanYilmazStudyCase/Modules/View/PeopleListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

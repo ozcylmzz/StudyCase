@@ -15,6 +15,14 @@ class PeopleListViewController: UIViewController {
     var presenter: PeopleListPresenterProtocol?
     private var people: [Person] = []
     
+    private let label: UILabel = {
+        let label = UILabel()
+        label.text = "No one here :)"
+        label.textAlignment = .center
+        label.isHidden = true
+        return label
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
@@ -35,6 +43,7 @@ class PeopleListViewController: UIViewController {
         
         loadingIndicator.hidesWhenStopped = true
         
+        view.addSubview(label)
         view.addSubview(tableView)
         view.addSubview(loadingIndicator)
     }
@@ -42,6 +51,8 @@ class PeopleListViewController: UIViewController {
     private func setupConstraints() {
         tableView.translatesAutoresizingMaskIntoConstraints = false
         loadingIndicator.translatesAutoresizingMaskIntoConstraints = false
+        label.frame = CGRect(x: 0, y: 0, width: 250, height: 50)
+        label.center = view.center
         
         NSLayoutConstraint.activate([
             tableView.topAnchor.constraint(equalTo: view.topAnchor),
@@ -71,6 +82,7 @@ extension PeopleListViewController: PeopleListViewProtocol {
     
     func showPeople(_ people: [Person]) {
         DispatchQueue.main.async {
+            self.tableView.isHidden = false
             self.people = people
             self.tableView.reloadData()
         }
@@ -97,7 +109,7 @@ extension PeopleListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let person = people[indexPath.row]
-        cell.textLabel?.text = person.fullName + person.id.description
+        cell.textLabel?.text = person.fullName + " (\(person.id.description))"
         return cell
     }
 }
